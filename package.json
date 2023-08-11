@@ -1,0 +1,22 @@
+{
+  "name": "vite-plugin-mock-server-plus",
+  "version": "0.0.1",
+  "description": "Vite mock server plugin",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "dev": "tsc -w -p .",
+    "build": "tsc -p ."
+  },
+  "dependencies": {
+    "@howiefh/ant-path-matcher": "^0.0.4",
+    "chokidar": "^3.5.3",
+    "mockjs": "^1.1.0"
+  },
+  "devDependencies": {
+    "@types/mockjs": "^1.0.7",
+    "@types/node": "^20.4.9",
+    "typescript": "^5.1.6",
+    "vite": "^4.4.9"
+  }
+}
